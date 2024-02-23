@@ -1,0 +1,236 @@
+.page-template-intro {
+    background: #040404 url('../img/bg-intro.jpg') no-repeat center 0;
+}
+
+.logo {
+    &-title {
+        font-size: 1.875rem;
+        font-weight: 900;
+        text-align: center;
+        text-transform: uppercase;
+
+        span {
+            padding: 0 15px;
+            position: relative;
+
+            &::before,
+            &::after
+            {
+                background: #e6e6e6;
+                content: '';
+                height: 1px;
+                opacity: .2;
+                position: absolute;
+                top: 50%;
+                width: 50px;
+
+                @media screen and (min-width: 480px) {
+                    width: 100px;
+                }
+
+                @media screen and (min-width: 768px) {
+                    width: 200px;
+                }
+            }
+
+            &::before {
+                right: 100%;
+            }
+
+            &::after {
+                left: 100%;
+            }
+        }
+    }
+
+    &-subtitle {
+        font-size: .8125rem;
+        font-weight: 900;
+        margin-top: 10px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+.social-container {
+    padding-top: 63px;
+
+    .fb {
+        font-size: .8125rem;
+        height: 42px;
+        text-decoration: none;
+    }
+
+    .mask {
+        background: url('../img/fb-icon.webp') no-repeat center center;
+        border: 1px solid rgba(255,255,255,.4);
+        border-radius: 99px;
+        height: 32px;
+        width: 32px;
+    }
+}
+
+.contact-info {
+    color: #a8a8a8;
+    font-size: .9rem;
+    line-height: 1.75;
+    margin-top: 40px;
+    text-align: center;
+
+    .map,
+    .phone,
+    .mail
+    {
+        &::before {
+            content: '';
+            display: inline-block;
+            height: 100%;
+            margin-right: 5px;
+            position: relative;
+        }
+    }
+
+    .map {
+        &::before {
+            background: url('../img/map_mini.webp') no-repeat left center;
+            background-size: 100%;
+            top: 5px;
+            width: 12px;
+        }
+    }
+
+    .phone {
+        margin-left: 15px;
+        text-decoration: none;
+
+        &::before {
+            background: url('../img/phone_mini.webp') no-repeat left center;
+            background-size: 100%;
+            top: 6px;
+            width: 15px;
+        }
+    }
+
+    .mail {
+        margin-left: 15px;
+
+        &::before {
+            background: url('../img/mail_mini.webp') no-repeat left center;
+            background-size: 100%;
+            top: 7px;
+            width: 16px;
+        }
+    }
+}
+
+.choose-type {
+    margin-top: 50px;
+
+    .for-man,
+    .for-woman
+    {
+        min-height: 395px;
+
+        > .row {
+            > * {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        .title {
+            font-family: 'oranienbaumregular';
+            font-size: 1.188rem;
+            height: 70%;
+            line-height: 1.5rem;
+            text-align: center;
+        }
+
+        .button {
+            align-items: flex-start;
+            display: flex;
+            height: 30%;
+            justify-content: center;
+
+            span {
+                background: transparent;
+                border: 3px solid #fff;
+                border-radius: 99px;
+                font-family: 'Lato',sans-serif;
+                font-size: .8125rem;
+                font-weight: 900;
+                padding: 10px 30px;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .for-man {
+        background: url('../img/box_2.webp') no-repeat center center;
+        background-size: cover;
+    }
+    
+    .for-woman {
+        background: url('../img/box_3.webp') no-repeat center center;
+        background-size: cover;
+    }
+}
+
+.cities-container {
+    .cities {
+        margin-top: 20px;
+        text-align: center;
+
+        a {
+            font-family: 'oranienbaumregular';
+            font-size: 1.188rem;
+            line-height: 2rem;
+            text-decoration: none;
+        }
+    }
+}
+
+.looking-for {
+    font-family: 'oranienbaumregular';
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin-bottom: 40px;
+    margin-top: 50px;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 50px;
+    }
+}
+
+.h1-home {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 1.25rem;
+    text-align: center;
+}
+
+.icon-advantages {
+    font-family: 'oranienbaumregular';
+    font-size: 1.188rem;
+    line-height: 1.5rem;
+
+    @media screen and (min-width: 768px) {
+        font-size: 1rem;
+    }
+
+    @media screen and (min-width: 992px) {
+        font-size: 1.188rem;
+    }
+
+    .icon {
+        align-items: center;
+        display: flex;
+        margin: 0 0 30px;
+    }
+
+    img {
+        margin-right: 1.25rem;
+        margin-left: .5rem;
+    }
+}

@@ -1,0 +1,32 @@
+@import "theme/child_theme_variables";                   // <------- Add your variables into this file. Also add variables to overwrite Bootstrap variables here
+@import "assets/bootstrap5/bootstrap";                             // <------- Loads Bootstrap5
+@import "assets/understrap/theme/understrap";  // <------- Loads the Understrap defaults. Just a few classes to incorporate BS in WP
+@import "assets/understrap/theme/woocommerce"; // <------- Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce
+
+// Optional files - If you don´t use the corresponding scripts/fonts comment em out
+@import "assets/fontawesome/font-awesome";                           // <------- Font Awesome Icon font
+@import "assets/underscores";                            // <------- Underscores media styles
+
+// Any additional imported files //
+@import "theme/child_theme";                             // <------- Add your styles into this file
+@import "assets/understrap/theme/colors";           // <-------- This creates the necessary bootstrap color classes.
+@import "assets/understrap/theme/blocks";           // <-------- This adds Bootstrap styles to blocks.
+@import "assets/understrap/theme/contact-form7";    // <-------- Contact Form 7 - Bootstrap 4 support
+
+@import "theme/header";
+@import "theme/front-page";
+@import "theme/list-page";
+@import "theme/faq";
+@import "theme/product";
+@import "theme/contact";
+@import "theme/faq";
+@import "theme/cart";
+@import "theme/about";
+@import "theme/blog";
+@import "theme/opinions";
+@import "theme/posts";
+
+
+
+
+// @import "theme/erase";

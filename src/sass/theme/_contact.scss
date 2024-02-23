@@ -1,0 +1,185 @@
+
+.header-picture {
+    padding: 0;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.header-picture img {
+    width: 100%;
+    opacity: 0.35;
+}
+.header-picture .shadow-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 244px;
+    width: 100%;
+    z-index: 2;
+    background: url('https://feelevent.pl/wp-content/themes/foundationpress-master/images/shadow-bottom.png') 0 0;
+    display: none;
+}
+.header-picture .subpage-title-header {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 25%;
+    z-index: 99;
+    display: none;
+}
+.header-picture .subpage-title-header .title {
+    font-size: 3rem;
+    line-height: 3.125rem;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    font-weight: 300;
+}
+.header-picture .subpage-title-header {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 0.8125rem;
+    line-height: 1.2rem;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+.header-picture img {
+    width: 100% !important;
+}
+@media only screen and (min-width: 40.063em) {
+    .header-picture .shadow-bottom {
+        display: block;
+   }
+    .header-picture .subpage-title-header {
+        display: block;
+   }
+}
+@media only screen and (min-width: 64.063em) {
+
+    .header-picture {
+        margin-top: -140px;
+   }
+    .header-picture .subpage-title-header {
+        top: 45%;
+   }
+}
+@media only screen and (min-width: 64.062em) {
+    body > div:nth-child(2) div {
+        display: block;
+   }
+}
+:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#breadcrumbs {
+    margin-top: 20px;
+    color: #b2b2b2;
+    font-weight: 400;
+    padding: 0px;
+    text-transform: none;
+}
+#breadcrumbs a, .breadcrumb_last {
+    color: #b2b2b2;
+    font-weight: 400;
+    padding: 0px;
+    text-transform: none;
+    font-size: 1em;
+}
+#breadcrumbs a:hover {
+    color: #fff;
+}
+
+
+.page-template-contact {
+    .container-top{
+        div{
+            div.col-lg-4.col-md-4.side {
+                background: #412d5f;
+                ul{
+                    padding: 1rem 2rem;
+                    list-style: none;
+                    li:first-child{
+                        border-bottom: 1px solid #54426f!important;
+                    }
+                    li:nth-child(2){
+                        border-bottom: 1px solid #54426f!important;
+                    }
+                    li{
+                        padding: 1rem 0;
+                    }
+                }
+                header{
+                    padding: 2rem 2rem 1rem 2rem;
+                }
+            }
+            .col-12.col-md-8.cf-div{
+                background-color: #2e3132;
+            }
+        }
+    }
+    .container-bottom{
+        background-color: #412d5f;
+        padding-bottom: 25px;
+    }
+
+ }
+
+
+ .wpcf7-form input, .wpcf7-form select, .wpcf7-form textarea {
+    font-size: .9rem;
+    color: #fff;
+    border: 0;
+    padding-left: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #545657;
+    background: #2e3132;
+    box-shadow: none;}
+    
+
+
+
+
+a{outline:none;}
+:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+
+*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+a:hover{cursor:pointer;}
+
+
+
+
+strong{font-weight:bold;line-height:inherit;}
+
+
+a:active,a,a:focus{outline:none;}
+.left-navigation ul{list-style:none;margin:0;padding:1rem 2rem;}
+.left-navigation ul li{display:block;border-bottom:1px solid #f98a54;}
+.left-navigation ul li:last-child{border-bottom:0;}
+.left-navigation ul li a{display:block;padding:.6rem 0;font-size:.9rem;color:#fff;}
+.contact-adress li{padding:1rem 0;border-bottom:1px solid #54426f!important;}
+.contact-adress li:last-child{border:0!important;}
+.contact-adress p{margin:0;color:#fff;font-size:.9rem;}
+.contact-adress a{display:inline!important;padding:0!important;}
+:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+
+.contact-adress li{border-bottom:1px solid #c85d93!important;}
+
+
+
+.wpcf7 {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+}
+.wpcf7-form input, .wpcf7-form select, .wpcf7-form textarea {
+    font-size: .9rem !important;
+    color: #fff  !important;
+    border: 0 !important;
+    padding-left: 0 !important;
+    margin-bottom: 20px !important;
+    border-bottom: 1px solid #545657 !important;
+    background: #2e3132 !important;
+    box-shadow: none  !important;
+}
